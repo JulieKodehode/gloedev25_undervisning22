@@ -13,7 +13,7 @@ async function fetchFacts() {
     // console.log(data.data[1].fact);
 
     return data;
-}
+};
 
 // fetchFacts();
 
@@ -33,7 +33,7 @@ async function displayFacts() {
         listItem.textContent = factItem;
 
         factsList.appendChild(listItem);
-    })
-}
+    });
+};
 
 displayFacts();
